@@ -1,0 +1,575 @@
+p,h3{
+    color: #666;
+}
+.navbar{
+    background-color: #6c757d0f;
+}
+.navbar-brand img{width: 200px;}
+/*
+.navbar-nav a{
+    color: #607D8B;
+    font-size: 14px;
+}
+*/
+.navbar-nav a:hover{
+    font-weight: 700;
+}
+/*
+.container{
+    box-shadow: 0px 0px 10px #607D8B;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px
+}
+*/
+.container .row .tableau{
+    width: 370px;
+}
+.p-1{
+    margin-right: 3px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+#clima-m .map{
+    width:100%;
+}
+.zones{
+    position: absolute;
+    top: 228px;
+    right: 20px;
+}
+.zones .zone_1 .color{
+    background-color: #0073fe;
+    width: 29px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.zones .zone_2 .color{
+    background-color: #2e742c;
+    width: 29px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.zones .zone_3 .color{
+    background-color: #f160b0;
+    width: 29px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.zones .zone_4 .color{
+    background-color: #bb5201;
+    width: 29px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.zones .zone_5 .color{
+    background-color: #fdf56e;
+    width: 29px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.zones .zone_6 .color{
+    background-color: #fed480;
+    width: 29px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.zones .input-group:hover{
+    border:1px solid #fed480 ;
+    cursor:pointer;
+}
+input[name='zone']{
+    margin-right: auto;
+}
+.btn-group-vertical{
+    position: fixed;
+    top: 175px;
+    left: 20px;
+}
+.btn-group-vertical .btn{
+    background-color: #f6f7f7;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border: 1px solid cadetblue;
+}
+.btn-group-vertical button i{
+    color: grey;
+}
+.imgPdf{
+    width: 100px;
+    height: 100px;
+}
+/*Les système*/
+.mycadre{ 
+    margin-top: 30px;
+}
+/*Systeme 1*/
+.cadre1{
+    width: 800px;
+    height: 430px;
+    
+    border-radius: 5px; 
+    padding: 5px;
+    margin: auto; 
+    margin-bottom: 10px;
+}
+.cadre1 .sys{
+    width: 100%;
+    height: 100%;
+}
+.cadre1 .cylindre{
+    width: 167px;
+    height: 61px;
+    position: relative;
+    top: -372px;
+    left: 301px;
+    transform: rotate(-33deg);
+    border-radius: 23px 37px 24px 40px;
+}
+.cadre1 .paneau{
+    width: 101px;
+    height: 266px;
+    position: relative;
+    top: -454px;
+    left: 463px;
+    transform: rotate(-66deg);
+    border-radius: 4px 121px 13px 130px;
+}
+.cadre1 .solei{
+    width: 125px;
+    height: 89px;
+    position: relative;
+    top: -742px;
+    left: 649px;
+}
+.cadre1 .douch{
+    width: 46px;
+    height: 45px;
+    position: relative;
+    top: -553px;
+    left: 424px;
+}
+.cadre1 .tuyau{
+    width: 48px;
+    height: 122px;
+    position: relative;
+    top: -734px;
+    left: 213px;
+}
+/*système 2*/
+.cadre2{
+    width: 800px;
+    height: 430px;
+     
+    border-radius: 5px; 
+    padding: 5px;
+    margin: auto; 
+    margin-bottom: 10px;
+}
+.cadre2 .sys{
+    width: 100%;
+    height: 100%;
+}
+.btn-group{
+    margin-top: 10px;
+    display: flex;
+    margin: auto;
+    width: 226px;
+}
+.btn-group .btn{
+    background-color: #f6f7f7;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border: 1px solid cadetblue;
+}
+.btn-group button i{
+    color: grey;
+}
+.cadre2 .cylindre{
+    width: 109px;
+    height: 260px;
+    position: relative;
+    top: -304px;
+    left: 87px;
+    /*box-shadow: -7px 15px 40px 5px rgba(0,0,0,0.75);*/
+}
+.cadre2 .regulateur{
+    width: 48px;
+    height: 54px;
+    position: relative;
+    top: -549px;
+    left: 239px;
+}
+.cadre2 .pompe{
+    width: 27px;
+    height: 35px;
+    position: relative;
+    top: -504px;
+    left: 239px;
+}
+.cadre2 .tuyau1{
+    width: 292px;
+    height: 46px;
+    position: relative;
+    top: -561px;
+    left: 289px;
+}
+.cadre2 .tuyau2{
+    width: 209px;
+    height: 26px;
+    position: relative;
+    top: -486px;
+    left: 203px;
+}
+.cadre2 .douch{
+    width: 30px;
+    height: 46px;
+    position: relative;
+    top: -561px;
+    left: 618px;
+}
+.cadre2 .paneau{
+    width: 85px;
+    height: 169px;
+    position: relative;
+    top: -811px;
+    left: 632px;
+    transform: rotate(-52deg);
+}
+.cadre2 .solei{
+    width: 94px;
+    height: 86px;
+    position: relative;
+    top: -1051px;
+    left: 689px;   
+}
+/*Système 3*/
+.cadre3{
+    width: 800px;
+    height: 430px;
+     
+    border-radius: 5px; 
+    padding: 5px;
+    margin: auto; 
+    margin-bottom: 10px;
+}
+.cadre3 .sys{
+    width: 100%;
+    height: 100%;
+}
+.cadre3 .cylindre{
+    width: 84px;
+    height: 247px;
+    position: relative;
+    top: -280px;
+    left: 87px;
+    
+}
+.cadre3 .regulateur{
+    width: 48px;
+    height: 54px;
+    position: relative;
+    top: -531px;
+    left: 209px;
+    
+}
+.cadre3 .pompe1{
+    width: 27px;
+    height: 35px;
+    position: relative;
+    top: -485px;
+    left: 207px;
+    
+}
+.cadre3 .pompe2{
+    width: 27px;
+    height: 35px;
+    position: relative;
+    top: -520px;
+    left: 290px;
+    
+}
+.cadre3 .echangeur{
+    width: 28px;
+    height: 51px;
+    position: relative;
+    top: -579px;
+    left: 240px;
+    
+}
+.cadre3 .tuyau1{
+    width: 241px;
+    height: 46px;
+    position: relative;
+    top: -628px;
+    left: 333px;
+    
+}
+.cadre3 .tuyau2{
+    width: 216px;
+    height: 26px;
+    position: relative;
+    top: -553px;
+    left: 176px;
+    
+}
+.cadre3 .douch{
+    width: 30px;
+    height: 46px;
+    position: relative;
+    top: -629px;
+    left: 616px;
+    
+}
+.cadre3 .paneau{
+    border-radius: 5px 18px 0px 29px;
+    width: 90px;
+    height: 173px;
+    position: relative;
+    top: -879px;
+    left: 628px;
+    transform: rotate(-54deg);
+    
+}
+.cadre3 .solei{
+    width: 101px;
+    height: 86px;
+    position: relative;
+    top: -1130px;
+    left: 684px;
+    
+}
+/*Systeme 4*/
+.cadre4{
+    width: 800px;
+    height: 430px;
+     
+    border-radius: 5px; 
+    padding: 5px;
+    margin: auto; 
+    margin-bottom: 10px;
+}
+.cadre4 .sys{
+    width: 100%;
+    height: 100%;
+}
+.cadre4 .cylindre1{
+    width: 70px;
+    height: 247px;
+    position: relative;
+    top: -289px;
+    left: 78px;
+    
+}
+.cadre4 .cylindre2{
+    width: 70px;
+    height: 233px;
+    position: relative;
+    top: -538px;
+    left: 200px;
+    
+}
+.cadre4 .regulateur{
+    width: 41px;
+    height: 51px;
+    position: relative;
+    top: -774px;
+    left: 300px;
+    
+}
+.cadre4 .pompe1{
+    width: 23px;
+    height: 32px;
+    position: relative;
+    top: -731px;
+    left: 299px;
+    
+}
+.cadre4 .pompe2{
+    width: 24px;
+    height: 32px;
+    position: relative;
+    top: -763px;
+    left: 367px;
+    
+}
+.cadre4 .echangeur{
+    width: 25px;
+    height: 48px;
+    position: relative;
+    top: -818px;
+    left: 326px;
+    
+}
+.cadre4 .tuyau1{
+    width: 207px;
+    height: 46px;
+    position: relative;
+    top: -865px;
+    left: 397px;
+    
+}
+.cadre4 .tuyau2{
+    width: 158px;
+    height: 26px;
+    position: relative;
+    top: -797px;
+    left: 296px;
+    
+}
+.cadre4 .douch{
+    width: 30px;
+    height: 46px;
+    position: relative;
+    top: -868px;
+    left: 632px;
+    
+}
+.cadre4 .paneau{
+    border-radius: 5px 7px 0px 10px;
+    width: 80px;
+    height: 147px;
+    position: relative;
+    top: -1098px;
+    left: 643px;
+    transform: rotate(-51deg);
+    
+}
+.cadre4 .solei{
+    width: 101px;
+    height: 86px;
+    position: relative;
+    top: -1324px;
+    left: 683px;
+    
+}
+/*systme 5*/
+.cadre5{
+    width: 800px;
+    height: 430px;
+     
+    border-radius: 5px; 
+    padding: 5px;
+    margin: auto; 
+    margin-bottom: 10px;
+}
+.cadre5 .sys{
+    width: 100%;
+    height: 100%;
+}
+.cadre5 .cylindre1{
+    width: 70px;
+    height: 201px;
+    position: relative;
+    top: -299px;
+    left: 10px;
+  
+}
+.cadre5 .cylindre2{
+    width: 69px;
+    height: 203px;
+    position: relative;
+    top: -503px;
+    left: 171px;
+  
+}
+.cadre5 .regulateur{
+    width: 41px;
+    height: 46px;
+    position: relative;
+    top: -710px;
+    left: 269px;
+  
+}
+.cadre5 .pompe1{
+    width: 23px;
+    height: 29px;
+    position: relative;
+    top: -674px;
+    left: 268px;
+  
+}
+.cadre5 .pompe2{
+    width: 24px;
+    height: 29px;
+    position: relative;
+    top: -703px;
+    left: 335px;
+  
+}
+.cadre5 .echangeur{
+    width: 25px;
+    height: 42px;
+    position: relative;
+    top: -753px;
+    left: 294px;
+  
+}
+.cadre5 .tuyau1{
+    width: 207px;
+    height: 40px;
+    position: relative;
+    top: -793px;
+    left: 363px;
+  
+}
+.cadre5 .tuyau2{
+    width: 167px;
+    height: 26px;
+    position: relative;
+    top: -735px;
+    left: 248px;
+  
+}
+.cadre5 .douch{
+    width: 30px;
+    height: 37px;
+    position: relative;
+    top: -800px;
+    left: 597px;
+  
+}
+.cadre5 .paneau{
+    border-radius: 5px 7px 0px 35px;
+    width: 71px;
+    height: 141px;
+    position: relative;
+    top: -1001px;
+    left: 613px;
+    transform: rotate(-53deg);
+  
+}
+.cadre5 .solei{
+    width: 101px;
+    height: 86px;
+    position: relative;
+    top: -1208px;
+    left: 684px;
+  
+}
+.cadre5 .pompe3{
+    width: 24px;
+    height: 29px;
+    position: relative;
+    top: -932px;
+    left: 230px;
+  
+}
+.cadre5 .tuyau3{
+    width: 393px;
+    height: 33px;
+    position: relative;
+    top: -1034px;
+    left: 268px;
+  
+}
+.cadre5 .chaufage{
+    width: 51px;
+    height: 58px;
+    position: relative;
+    top: -1056px;
+    left: 661px;
+  
+}
